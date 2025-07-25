@@ -18,7 +18,7 @@ Nosso objetivo é criar um banco de dados relacional que servirá de base para o
 [SQLite](https://sqliteonline.com "Optional Title")
     
 ## Link para o Repositório
-[DB](https://github.com/hallslima/equipe-empresta-ai/tree/dde7329307bee4f808c5baeb7aabddfaadbc3188/db "Optional Title")
+[DB](https://github.com/hallslima/equipe-empresta-ai/tree/main/db "Optional Title")
 
 ---
 
