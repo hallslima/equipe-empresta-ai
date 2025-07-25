@@ -15,10 +15,10 @@ Nosso objetivo é criar um banco de dados relacional que servirá de base para o
 - Rodrigo Costa Monteiro
 
 ## SGBD Escolhido
-**SQLite**
-
+[SQLite](https://sqliteonline.com "Optional Title")
+    
 ## Link para o Repositório
-`https://github.com/equipe-empresta-ai/empresta-ai-db`
+[DB](https://github.com/hallslima/equipe-empresta-ai/tree/dde7329307bee4f808c5baeb7aabddfaadbc3188/db "Optional Title")
 
 ---
 
