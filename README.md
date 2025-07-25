@@ -39,7 +39,6 @@ Nosso objetivo é criar um banco de dados relacional que servirá de base para o
 
 * **Relacionamentos Principais:**
     * Um `CONDOMINIO` possui vários `MORADORES`.
-    * Um `CONDOMINIO` possui vários `ITENS`.
     * Um `MORADOR` pode realizar vários `EMPRESTIMOS`.
     * Um `ITEM` pode estar em vários `EMPRESTIMOS` (em momentos diferentes).
 
