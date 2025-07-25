@@ -42,7 +42,6 @@ Nosso objetivo é criar um banco de dados relacional que servirá de base para o
     * Um `MORADOR` pode realizar vários `EMPRESTIMOS`.
     * Um `ITEM` pode estar em vários `EMPRESTIMOS` (em momentos diferentes).
 
-*(A imagem do diagrama ER atualizado, refletindo os refinamentos, seria inserida aqui.)*
 
 ### Scripts SQL
 
