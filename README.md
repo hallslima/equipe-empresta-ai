@@ -27,9 +27,9 @@ Nosso objetivo é criar um banco de dados relacional que servirá de base para o
 
 ## Estrutura do Banco de Dados
 
-### Modelo Lógico (Refinado)
+### Modelo Lógico
 
-<img width="924" height="626" alt="image" src="https://github.com/user-attachments/assets/fcdd9b17-9c52-4fe5-b015-4aef3c70028a" />
+<img width="930" height="841" alt="image" src="https://github.com/user-attachments/assets/85fe42a4-f823-4887-9140-ec9b3939c239" />
 
 * **Entidades:**
     * `CONDOMINIO`: Armazena os dados cadastrais de cada condomínio.
