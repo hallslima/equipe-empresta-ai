@@ -1,5 +1,8 @@
 # Equipe Empresta Ai!
 
+<img width="218" height="278" alt="image" src="https://github.com/user-attachments/assets/3cc12390-3f9a-4003-8ce9-976826ad8fe1" />
+
+
 ## Nome do Projeto
 Empresta Ai! - Gestão de Empréstimo de Ferramentas
 
@@ -26,7 +29,7 @@ Nosso objetivo é criar um banco de dados relacional que servirá de base para o
 
 ### Modelo Lógico (Refinado)
 
-O modelo lógico foi refinado a partir da proposta inicial para garantir a normalização e a integridade dos dados.
+<img width="924" height="626" alt="image" src="https://github.com/user-attachments/assets/fcdd9b17-9c52-4fe5-b015-4aef3c70028a" />
 
 * **Entidades:**
     * `CONDOMINIO`: Armazena os dados cadastrais de cada condomínio.
