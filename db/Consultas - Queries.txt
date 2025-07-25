@@ -1,0 +1,68 @@
+--Top 5 cidades que mais alugam
+SELECT c.cidade, c.estado, COUNT(*) AS emprestimos
+FROM MORADOR AS a
+JOIN EMPRESTIMO AS b
+USING (id_morador)
+JOIN CONDOMINIO AS c
+USING(id_condominio)
+GROUP BY 1,2
+ORDER BY emprestimos DESC
+LIMIT 5;
+
+--Top 5 condomínios que mais alugam itens
+SELECT a.nome_condominio AS condominio, a.cidade, a.estado, COUNT(*) AS emprestimos
+FROM CONDOMINIO AS a
+JOIN MORADOR AS b
+USING(id_condominio)
+JOIN EMPRESTIMO AS c
+USING (id_morador)
+GROUP BY 1,2,3
+ORDER BY emprestimos DESC
+LIMIT 5;
+
+
+--Top 10 condominios com empréstimos mais valiosos (média)
+SELECT a.nome_condominio AS condominio, a.cidade, a.estado, AVG(d.valor_perda) AS valor_medio
+FROM CONDOMINIO AS a
+JOIN MORADOR AS b
+USING(id_condominio)
+JOIN EMPRESTIMO AS c
+USING (id_morador)
+JOIN ITEM AS d
+USING (id_item)
+GROUP BY 1,2,3
+ORDER BY valor_medio DESC
+LIMIT 10;
+
+
+--Top 5 itens mais alugados
+SELECT a.nome_item AS item, COUNT(*) AS emprestimos
+FROM ITEM AS a
+JOIN EMPRESTIMO AS b
+USING (id_item)
+GROUP BY 1
+ORDER BY emprestimos DESC
+LIMIT 5;
+
+
+--itens menos alugados
+SELECT a.nome_item AS item, COUNT(*) AS emprestimos
+FROM ITEM AS a
+JOIN EMPRESTIMO AS b
+USING (id_item)
+GROUP BY 1
+ORDER BY emprestimos
+LIMIT 5;
+
+
+--Cidades do Norte/Nordeste presentes na nossa base
+SELECT DISTINCT estado,cidade 
+FROM CONDOMINIO
+WHERE estado IN ('PE','BA','CE','AM')
+ORDER BY 1,2;
+
+
+
+
+
+
